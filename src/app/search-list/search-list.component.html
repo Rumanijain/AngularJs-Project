@@ -1,0 +1,13 @@
+  <div *ngFor="let new of ref.articles">
+    {{new.id}}
+  </div>
+  <div class="container">
+      <div class="col-md-12">
+
+     <div class="container col-sm-4 col-sm-4" *ngFor="let new of ref.articles">
+
+<app-search-detail [new]="new"></app-search-detail>
+      </div>
+      </div>
+      </div>
+    
